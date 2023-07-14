@@ -1,0 +1,12 @@
+a
+    Lc|   ã                   @   s.   d dl Zd dlm  mZ dd„ Zdd„ Z dS )é    Nc                 C   s   |   ¡ S )N)Ú
+capitalize)Úx© r   út/Users/shubham/Documents/work/TrainWithShubham/devops_zero_to_hero/react-app/react_django_demo_app/tests/test_foo.pyÚcapital_case   s    r   c                   C   s    d} t | ƒ}d}||k}|sŒt d|fd||f¡dt ¡ v sFt t ¡rPt t ¡ndt | ¡t |¡t |¡dœ }d d|i }t t |¡ƒ‚d  }  } }}d S )	NZ	semaphoreÚ	Semaphore)ú==)z0%(py4)s
+{%(py4)s = %(py0)s(%(py2)s)
+} == %(py7)sr   )Zpy0Zpy2Zpy4Zpy7zassert %(py9)sZpy9)	r   Ú
+@pytest_arÚ_call_reprcompareÚ@py_builtinsÚlocalsÚ_should_repr_global_nameÚ	_safereprÚAssertionErrorÚ_format_explanation)Z
+@py_assert1Z
+@py_assert3Z
+@py_assert6Z
+@py_assert5Z
+@py_format8Z@py_format10r   r   r   Útest_capital_case   s    r   )Úbuiltinsr
+   Ú_pytest.assertion.rewriteÚ	assertionÚ rewriter	   r   r   r   r   r   r   Ú<module>   s   "
